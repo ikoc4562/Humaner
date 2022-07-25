@@ -1,0 +1,19 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^news-detail-(.*)$ news-detail.php?&id=$1 [L,NC]
+RewriteRule ^about.* about.php [NC]
+RewriteRule ^home.* index.php [NC]
+RewriteRule ^contact.* contact.php [NC]
+RewriteRule ^careers.* careers.php [NC]
+RewriteRule ^story-behind-humaner.* story-behind-humaner.php [NC]
+RewriteRule ^how-we-work.* how-we-work.php [NC]
+RewriteRule ^team.* team.php [NC]
+RewriteRule ^our-impact.* our-impact.php [NC]
+
+RewriteRule ^forrefugees.* forrefugees.php [NC]
+RewriteRule ^involved.* involved.php [NC]
+RewriteRule ^partners.* partners.php [NC]
+RewriteRule ^news.* news.php [NC]
+
+
